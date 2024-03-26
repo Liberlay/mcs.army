@@ -1,0 +1,132 @@
+.header {
+  position: fixed;
+  right: 50%;
+  transform: translate(50%, 0);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 64px;
+  z-index: 50;
+  font-family: 'Rubik';
+
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    &::before {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-color: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(10px);
+      content: '';
+    }
+
+    @media screen and (max-width: 1205px) {
+      padding: 0 10px;
+    }
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1200px;
+
+      .left {
+        display: flex;
+        gap: 40px;
+        height: 100%;
+
+        @media screen and (max-width: 1000px) {
+          gap: 20px;
+        }
+
+        a {
+          display: flex;
+          align-items: center;
+
+          .logo {
+            width: 42px;
+          }
+        }
+
+        nav {
+          display: flex;
+          gap: 20px;
+          font-size: 15px;
+          text-transform: uppercase;
+
+          @media screen and (max-width: 800px) {
+            display: none;
+          }
+
+          a {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            transition: 0.3s;
+
+            &:hover {
+              color: var(--color-primary);
+            }
+          }
+        }
+      }
+
+      .right {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        .phone {
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
+
+          @media screen and (max-width: 330px) {
+            display: none;
+          }
+
+          p {
+            font-size: 14px;
+            font-family: 'Roboto';
+            color: rgba(255, 255, 255, 0.5);
+          }
+
+          .link {
+            font-size: 18px;
+            transition: 0.3s;
+
+            &:hover {
+              color: var(--color-primary);
+            }
+          }
+        }
+
+        .language {
+          @media screen and (max-width: 800px) {
+            display: none;
+          }
+        }
+
+        .menu_icon {
+          display: none;
+          color: var(--color-text);
+          transition: 0.3s;
+          cursor: pointer;
+
+          &:hover {
+            color: var(--color-primary);
+          }
+
+          @media screen and (max-width: 800px) {
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+}

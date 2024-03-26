@@ -1,0 +1,45 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  pointer-events: all;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  .container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: calc(100% - 20px);
+    max-width: 1200px;
+
+    @media screen and (max-width: 450px) {
+      bottom: 0;
+      margin: 0;
+      width: 100%;
+      height: calc(100% - 100px);
+    }
+
+    .close {
+      position: absolute;
+      right: 0;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      z-index: 15;
+      transition: 0.3s;
+      color: var(--color-text);
+      cursor: pointer;
+
+      &:hover {
+        color: var(--color-primary);
+      }
+    }
+  }
+}
