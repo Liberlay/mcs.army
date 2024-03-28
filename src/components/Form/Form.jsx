@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { toast } from 'react-toastify'
-import { notifyError } from 'utils/errors'
 import { Input } from 'components/Input'
+import { notifyError } from 'utils/errors'
 import { useTranslations } from 'next-intl'
 import { useForm, FormProvider } from 'react-hook-form'
 
@@ -14,7 +14,7 @@ export const Form = () => {
     axios
       .post('https://api.mcs.army/api/candidates', { data: form })
       .then(() => toast(t('form.toast'), { toastId: 'success' }))
-      .catch(notifyError)
+      .catch((error) => notifyError(error))
 
   return (
     <div className={styles.form}>
