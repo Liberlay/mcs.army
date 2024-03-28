@@ -118,6 +118,7 @@
       "link": "Privacy Policy"
     },
     "button": "Submit",
+    "toast": "Application has been successfully submitted",
     "error": {
       "required": "The field must be filled in",
       "lastName": "The field must contain the last name",

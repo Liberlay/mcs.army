@@ -1,9 +1,11 @@
+import { ToastContainer } from 'react-toastify'
 import { Header } from 'components/Header/Header'
 import { Footer } from 'components/Footer/Footer'
 import { NextIntlClientProvider, useMessages, useTranslations } from 'next-intl'
 
 import '../../styles/index.scss'
 import '../../styles/normalize.css'
+import 'react-toastify/dist/ReactToastify.css'
 import '/node_modules/flag-icons/css/flag-icons.min.css'
 
 export const metadata = {
@@ -63,6 +65,7 @@ export default function Layout({ children, modals, params: { locale } }) {
           <Footer />
         </NextIntlClientProvider>
         <div id="modals">{modals}</div>
+        <ToastContainer position="bottom-right" theme="dark" />
       </body>
     </html>
   )

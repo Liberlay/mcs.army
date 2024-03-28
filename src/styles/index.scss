@@ -6,6 +6,7 @@
   --color-bg: rgba(255, 255, 255, 0.1);
   --border: rgba(255, 255, 255, 0.5) 1px solid;
   --border-radius: 4px;
+  --toastify-color-progress-dark: #30c5d6;
 }
 
 * {
@@ -43,6 +44,11 @@ input {
   &:focus {
     outline: none;
   }
+}
+
+.Toastify__toast {
+  font-family: 'Roboto' !important;
+  font-weight: 500;
 }
 
 @font-face {

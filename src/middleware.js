@@ -8,5 +8,5 @@ export default createMiddleware({
 })
 
 export const config = {
-  matcher: ['/((?!_next|images|fonts).*)'],
+  matcher: ['/((?!_next|images|fonts|sitemap\\.xml|robots\\.txt).*)'],
 }

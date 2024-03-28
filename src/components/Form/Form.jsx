@@ -1,4 +1,6 @@
-import { omit } from 'lodash-es'
+import axios from 'axios'
+import { toast } from 'react-toastify'
+import { notifyError } from 'utils/errors'
 import { Input } from 'components/Input'
 import { useTranslations } from 'next-intl'
 import { useForm, FormProvider } from 'react-hook-form'
@@ -8,7 +10,11 @@ import styles from './Form.module.scss'
 export const Form = () => {
   const t = useTranslations()
   const methods = useForm({ mode: 'onBlur' })
-  const onSubmit = (data) => console.log(omit(data, ['age', 'terms']))
+  const onSubmit = (form) =>
+    axios
+      .post('https://api.mcs.army/api/candidates', { data: form })
+      .then(() => toast(t('form.toast'), { toastId: 'success' }))
+      .catch(notifyError)
 
   return (
     <div className={styles.form}>
@@ -74,8 +80,8 @@ export const Form = () => {
             name={'military'}
             label={t('form.radio.label')}
             options={[
-              { value: 'yes', label: t('form.radio.option_1') },
-              { value: 'no', label: t('form.radio.option_2') },
+              { value: 'Так', label: t('form.radio.option_1') },
+              { value: 'Ні', label: t('form.radio.option_2') },
             ]}
             required
           />
@@ -88,7 +94,7 @@ export const Form = () => {
             required
           />
 
-          <button className={styles.button} onClick={onSubmit}>
+          <button className={styles.button} onClick={() => onSubmit}>
             {t('form.button')}
           </button>
         </form>
