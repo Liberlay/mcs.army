@@ -37,7 +37,12 @@ export const Checkbox = ({ name, required, label, link, href }) => {
             <div className={styles.label} onClick={() => onChange(!value)}>
               {label}
               {link && (
-                <Link className={styles.link} href={href} onClick={(e) => e.stopPropagation()}>
+                <Link
+                  className={styles.link}
+                  href={href}
+                  target="_blank"
+                  onClick={(e) => e.stopPropagation()}
+                >
                   {link}
                 </Link>
               )}

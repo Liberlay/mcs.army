@@ -1,5 +1,5 @@
 {
-  "name": "army_recruiting",
+  "name": "mcs-client",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -31,5 +31,8 @@
     "react-toastify": "^10.0.5",
     "sass": "^1.70.0",
     "usehooks-ts": "^2.12.1"
+  },
+  "devDependencies": {
+    "yaml-loader": "^0.8.1"
   }
 }

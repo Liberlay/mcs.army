@@ -65,7 +65,7 @@ export default function Layout({ children, modals, params: { locale } }) {
           <Footer />
         </NextIntlClientProvider>
         <div id="modals">{modals}</div>
-        <ToastContainer position="bottom-right" theme="dark" />
+        <ToastContainer position="bottom-right" theme="dark" stacked />
       </body>
     </html>
   )

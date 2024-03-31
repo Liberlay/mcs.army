@@ -89,16 +89,16 @@ export default function MainPage() {
             </div>
           </div>
           <div className={styles.socials}>
-            <Link href="#">
+            <Link href="#" target="_blank">
               <FacebookIcon className={styles.icon} />
             </Link>
-            <Link href="#">
+            <Link href="#" target="_blank">
               <TelegramIcon className={styles.icon} />
             </Link>
-            <Link href="#">
+            <Link href="#" target="_blank">
               <InstagramIcon className={styles.icon} />
             </Link>
-            <Link href="#">
+            <Link href="#" target="_blank">
               <TikTokIcon className={styles.icon} />
             </Link>
           </div>

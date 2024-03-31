@@ -14,7 +14,7 @@ export const Form = () => {
     axios
       .post('https://api.mcs.army/api/candidates', { data: form })
       .then(() => toast(t('form.toast'), { toastId: 'success' }))
-      .catch((error) => notifyError(error))
+      .catch(notifyError(t))
 
   return (
     <div className={styles.form}>
