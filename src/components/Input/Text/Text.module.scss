@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  .label {
+    font-size: 14px;
+    color: var(--color-label);
+  }
+
+  .input {
+    padding: 8px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background-color: var(--color-bg);
+    transition: 0.3s;
+
+    &:hover {
+      border-color: var(--color-primary);
+    }
+
+    &:focus {
+      border-color: var(--color-primary);
+    }
+  }
+
+  .error_container {
+    height: 20px;
+
+    .error_message {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: var(--color-error);
+    }
+  }
+}

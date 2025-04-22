@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<url>
+		<loc>https://mcs.army</loc>
+		<xhtml:link rel="alternate" hreflang="uk" href="https://mcs.army" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://mcs.army/en" />
+		<lastmod>2024-03-28T22:15:19.858Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://mcs.army/brigades/32</loc>
+		<xhtml:link rel="alternate" hreflang="uk" href="https://mcs.army/brigades/32" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://mcs.army/en/brigades/32" />
+		<lastmod>2024-03-28T22:15:19.858Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://mcs.army/brigades/35</loc>
+		<xhtml:link rel="alternate" hreflang="uk" href="https://mcs.army/brigades/35" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://mcs.army/en/brigades/35" />
+		<lastmod>2024-03-28T22:15:19.858Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://mcs.army/brigades/36</loc>
+		<xhtml:link rel="alternate" hreflang="uk" href="https://mcs.army/brigades/36" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://mcs.army/en/brigades/36" />
+		<lastmod>2024-03-28T22:15:19.858Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://mcs.army/brigades/37</loc>
+		<xhtml:link rel="alternate" hreflang="uk" href="https://mcs.army/brigades/37" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://mcs.army/en/brigades/37" />
+		<lastmod>2024-03-28T22:15:19.858Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://mcs.army/brigades/38</loc>
+		<xhtml:link rel="alternate" hreflang="uk" href="https://mcs.army/brigades/38" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://mcs.army/en/brigades/38" />
+		<lastmod>2024-03-28T22:15:19.858Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://mcs.army/brigades/406</loc>
+		<xhtml:link rel="alternate" hreflang="uk" href="https://mcs.army/brigades/406" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://mcs.army/en/brigades/406" />
+		<lastmod>2024-03-28T22:15:19.858Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://mcs.army/vacancies</loc>
+		<xhtml:link rel="alternate" hreflang="uk" href="https://mcs.army/vacancies" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://mcs.army/en/vacancies" />
+		<lastmod>2024-03-28T22:15:19.858Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://mcs.army/privacy-policy</loc>
+		<xhtml:link rel="alternate" hreflang="uk" href="https://mcs.army/privacy-policy" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://mcs.army/en/privacy-policy" />
+		<lastmod>2024-03-28T22:15:19.858Z</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+</urlset>

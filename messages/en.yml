@@ -1,0 +1,329 @@
+meta:
+  title: Marine Corps Recruitment Center
+  description: The Marine Corps Recruitment Center of the Ukrainian Navy will help
+    you find a vacancy that suits your abilities, coordinate the process of employment
+    and training in the chosen specialty. Join us to take up the challenge and become
+    a part of the Marines of the Armed Forces of Ukraine. Be faithful always!
+  keywords:
+    - Marine Corps
+    - ARMED FORCES
+    - NAVY
+    - Recruiting
+    - Marine Brigades
+    - Manning price
+    - Ukrainian Army
+    - Marine Corps Vacancies
+    - Weapons in the Marine Corps
+    - Marine Corps equipment
+header:
+  nav:
+    about: About us
+    brigades: Brigades
+    application: Application
+    vacancies: Vacancies
+  phone: Main office
+top:
+  h1: Center for Recruiting and Manning the Marines of the Ukrainian Navy
+  h2: Where we are, there is victory!
+about:
+  questions:
+    - Want to speed up the victory?
+    - You want to protect your country?
+    - Do you want to be useful today and develop your civilian skills or learn a new
+      specialty in the military?
+  text:
+    - The Marine Corps Recruiting Center of the Ukrainian Navy will help you find a
+      relevant vacancy for your abilities, coordinate the process of employment and
+      training in the chosen specialty, and you will be strong, courageous and loyal
+      to your homeland.
+    - 'Join the challenge and become a part of the Marines of the Armed Forces of Ukraine,
+      use all your fury against the enemy from all sides at once: in the sky, at sea
+      and on the ground - become a knight of the three elements, help us defend our
+      native land.'
+    - Whether you choose a specialty in the rear or a place on the front line, it is
+      your contribution that is crucial to our common victory.
+    - The Marines of Ukraine are always faithful!!! Where we are, there is victory!
+brigades:
+  title: List of brigades of the Ukrainian Marines
+  list:
+    '32':
+      label: 32nd rocket artillery brigade
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat
+        lorem eu conguetempor. Aenean cursus varius risus, sit amet rutrum arcu porta
+        ac. Morbi sapien magna,imperdiet nec pulvinar et, tempor ut est. Mauris et
+        dui fringilla, molestie dolorvarius, eleifend nunc. Pellentesque lorem ex,
+        porta in massa a, efficitur tincidunterat. Duis gravida porttitor leo, in
+        posuere leo convallis vitae. Maecenas variuscondimentum felis, a accumsan
+        libero commodo sed.
+    '35':
+      label: 35 separate marine brigade
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat
+        lorem eu conguetempor. Aenean cursus varius risus, sit amet rutrum arcu porta
+        ac. Morbi sapien magna,imperdiet nec pulvinar et, tempor ut est. Mauris et
+        dui fringilla, molestie dolorvarius, eleifend nunc. Pellentesque lorem ex,
+        porta in massa a, efficitur tincidunterat. Duis gravida porttitor leo, in
+        posuere leo convallis vitae. Maecenas variuscondimentum felis, a accumsan
+        libero commodo sed.
+      battalions:
+        '18':
+          label: 18 separate battalion of marines
+        '88':
+          label: 88 separate air assault battalion
+        '137':
+          label: 137 separate battalion of marines
+    '36':
+      label: 36th separate marine brigade
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat
+        lorem eu conguetempor. Aenean cursus varius risus, sit amet rutrum arcu porta
+        ac. Morbi sapien magna,imperdiet nec pulvinar et, tempor ut est. Mauris et
+        dui fringilla, molestie dolorvarius, eleifend nunc. Pellentesque lorem ex,
+        porta in massa a, efficitur tincidunterat. Duis gravida porttitor leo, in
+        posuere leo convallis vitae. Maecenas variuscondimentum felis, a accumsan
+        libero commodo sed.
+      battalions:
+        '1':
+          label: 1 separate battalion of marines
+        '501':
+          label: 501 separate battalion of marines
+    '37':
+      label: 37 separate marine brigade
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat
+        lorem eu conguetempor. Aenean cursus varius risus, sit amet rutrum arcu porta
+        ac. Morbi sapien magna,imperdiet nec pulvinar et, tempor ut est. Mauris et
+        dui fringilla, molestie dolorvarius, eleifend nunc. Pellentesque lorem ex,
+        porta in massa a, efficitur tincidunterat. Duis gravida porttitor leo, in
+        posuere leo convallis vitae. Maecenas variuscondimentum felis, a accumsan
+        libero commodo sed.
+      battalions:
+        '505':
+          label: 505 separate marine battalion
+    '38':
+      label: 38 separate marine brigade
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat
+        lorem eu conguetempor. Aenean cursus varius risus, sit amet rutrum arcu porta
+        ac. Morbi sapien magna,imperdiet nec pulvinar et, tempor ut est. Mauris et
+        dui fringilla, molestie dolorvarius, eleifend nunc. Pellentesque lorem ex,
+        porta in massa a, efficitur tincidunterat. Duis gravida porttitor leo, in
+        posuere leo convallis vitae. Maecenas variuscondimentum felis, a accumsan
+        libero commodo sed.
+      battalions:
+        '503':
+          label: 503 Separate Marine Battalion
+    '406':
+      label: 406 separate artillery brigade
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat
+        lorem eu conguetempor. Aenean cursus varius risus, sit amet rutrum arcu porta
+        ac. Morbi sapien magna,imperdiet nec pulvinar et, tempor ut est. Mauris et
+        dui fringilla, molestie dolorvarius, eleifend nunc. Pellentesque lorem ex,
+        porta in massa a, efficitur tincidunterat. Duis gravida porttitor leo, in
+        posuere leo convallis vitae. Maecenas variuscondimentum felis, a accumsan
+        libero commodo sed.
+      battalions:
+        '64':
+          label: 64 separate cannon artillery division
+        '66':
+          label: 66 separate cannon artillery division
+        '67':
+          label: 67 separate cannon artillery division
+form:
+  title: Fill in the form and join the ranks of the Ukrainian Marines
+  lastName: Last name
+  firstName: First name
+  surname: Surname
+  phone: Phone number
+  email: Email
+  select:
+    label: Degree of education
+    option_1: Middle
+    option_2: High
+  radio:
+    label: Have you ever served in military?
+    option_1: Served
+    option_2: Didn't serve
+  age: I am between 18 and 45 years old
+  terms:
+    label: 'I agree to the '
+    link: Privacy Policy
+  button: Submit
+  toast: Application has been successfully submitted
+  error:
+    required: The field must be filled in
+    lastName: The field must contain the last name
+    firstName: The field must contain the name
+    surname: The field must contain the surname
+    phone: The field must contain a phone number
+    email: The field must contain email
+    select: Choose an option
+    radio: Choose an option
+    checkbox: Required field
+footer:
+  mainOffice:
+    title: Main office
+    street: Admirala Lazarjeva St, 76
+    city: Odesa, Ukraine
+  cities:
+    odesa:
+      label: Odesa
+      phone: '+380733194606'
+    vinnytsia:
+      label: Vinnytsia
+      phone: '+380664034086'
+    kropyvnytskyi:
+      label: Kropyvnytskyi
+      phone: '+380505214588'
+    mykolaiv:
+      label: Mykolaiv
+      phone: '+380977255816'
+    dnipro:
+      label: Dnipro
+      phone: '+380931350003'
+vacancies:
+  title: Vacancies in the Marine Corps
+  addittion: To apply for a vacancy  click 'Application'
+  list:
+    - label: UAV operator
+      text: Conducting aerial reconnaissance of enemy positions using unmanned systems.
+        Destroying the enemy with the help of strike unmanned aerial systems and FPV
+        drones. Adjustment of artillery fire on enemy positions and equipment
+    - label: Chef
+      text: Preparation of daily meals for military personnel, taking into account dietary
+        requirements and the number of people to be served. Ensuring high quality products
+        and compliance with sanitary standards during cooking. Keeping records of ingredients
+        and necessary supplies for the kitchen. Compliance with safety and hygiene requirements
+        while working in the kitchen
+    - label: Sniper rifleman
+      text: Conducting reconnaissance operations on the territory in accordance with
+        the planning and requirements of the command. Performing reconnaissance functions
+        in full camouflage mode and ensuring the safety of units. Carrying out accurate
+        fire strikes on enemy targets. Performing marksmanship training and exercises.
+        Ensuring the safety and maintenance of weapons and special equipment
+    - label: Driver
+      text: Performing or assisting in the performance of combat missions by the unit.
+        High level of motivation and stress resistance. Compliance with the requirements
+        and norms of military discipline, sanitary standards. transportation of personnel
+        and cargo (personnel, medical supplies, food). Maintaining motor vehicles in
+        good condition and in constant readiness for their intended use
+    - label: Senior deminer
+      text: Participation in military operations and hostilities. Execution of commands
+        of the military command. Preservation and maintenance of military equipment
+        and weapons. Compliance with discipline and internal military rules
+    - label: Machine gunner
+      text: Providing effective fire support during combat operations. Operation and
+        maintenance of machine guns. Ensuring uninterrupted supply of ammunition. Execution
+        of instructions of the unit commander and observance of combat discipline. Participation
+        in training and preparation for combat operations
+    - label: Orderly
+      text: Evacuation of the wounded. Providing first aid. Assistance to the unit's
+        combat medic. Performing combat missions as part of a unit. Professional training
+        and advanced training
+    - label: Grenade launcher
+      text: Ensuring effective fire from a grenade launcher. Observance of safety rules
+        during manipulation of firearms. Performing the commander's tasks and maintaining
+        the combat readiness of our unit. Maintenance and care of grenade launcher weapons
+        and their components
+    - label: Messenger
+      text: Ensuring reliable radio communication with communication centers. Keeping
+        a log of communication transmissions. Providing encryption and decryption of
+        radio communications. Support of communication facilities and equipment.
+    - label: Master of EW and ELINT systems
+      text: Repair of EW and ELINT systems. Assembling of EW and ELINT systems according
+        to the scheme. Repair of parts and components for the systems. Development of
+        the latest systems to suppress and detect the enemy, we will provide all the
+        opportunities to realize your plans.
+    - label: Driver-mechanic
+      text: Operation and maintenance of military equipment. Monitoring the technical
+        condition and timely repair and maintenance of the vehicle. Ensuring the safety
+        and reliability of vehicles. Timely completion of assigned combat missions with
+        the unit. Compliance with internal military requirements and regulations
+    - label: Service number
+      text: Assist the gunner in the loading and preparation of ammunition for firing,
+        as well as in the maintenance of weapons. Covering the gunner with fire in combat.
+        Monitoring the signals of the commander of his unit and the results of firing
+    - label: Clerk
+      text: Collaboration with departments - interacting with various departments to
+        ensure the exchange of necessary documentation and timely resolution of issues.
+        Organization and management of documents - keeping records of incoming and outgoing
+        documents, including their registration, sorting and storage. Working with Microsoft
+        Excel and Word to efficiently process and format documents
+    - label: Platoon commander officer
+      text: Performing combat missions as part of a unit. Constant maintenance of weapons,
+        equipment and ammunition in combat readiness. Respect for their commanders and
+        personnel. Knowledge of regulations (not yet canceled) and weapons. Knowledge
+        of Order 140. Ability to solve tasks quickly
+privacy-policy:
+  title: Privacy policy
+  list:
+    '1':
+      title: General provisions
+      text:
+        - Privacy Policy - rules governing the collection, processing, use and protection
+          of personal data that may be requested/received when using the mcs.army web
+          portal (hereinafter referred to as the Portal).
+        - Personal data means information or a set of information about an individual
+          or legal entity that is identified or can be specifically identified.
+        - The Portal Administrator has great respect for the confidential (personal)
+          information of any persons using the information posted on the Portal, as
+          well as the subjects of the Portal - users registered on the Portal, authorized
+          persons of providers, teachers (trainers), therefore we strive to protect
+          the confidentiality of personal data, thereby creating and ensuring the most
+          comfortable conditions for using the Portal.
+        - By filling out the registration form and checking the box that you have read
+          this Privacy Policy (hereinafter referred to as the Policy), you consent to
+          the processing of your personal data in order to provide role-based access,
+          prepare statistical, administrative and other information on professional
+          training.
+        - Before using the Portal, please carefully read your rights and obligations
+          regarding the processing of personal data, as specified in Article 8 of the
+          Law of Ukraine 'On Personal Data Protection', this Policy, and express your
+          full consent to its terms.
+    '2':
+      title: Collection and use of personal data
+      text:
+        - Personal data is collected exclusively by your conscious and voluntary decision
+          as a personal data subject to use the functionality of the Portal and in accordance
+          with the purpose of personal data processing set forth in this Policy.
+        - The scope and type of collection and use of your personal data vary depending
+          on the role in which you plan to use the Portal functionality.
+        - 'By registering on the Portal and filling in the personal account data, depending
+          on the role you have chosen, you provide the following information:'
+        - Name, last name, surname, date of birth, other identification data, phone
+          number and e-mail;
+        - additional registration.
+        - When you continue to use the Portal, information about the feedback forms/emails
+          contained in the requests is automatically collected.
+    '3':
+      title: Purpose of collecting, processing and using personal data
+      text:
+        - 'The collection, processing and use of personal data is carried out in order
+          to:'
+        - 'providing role-based access, in particular:'
+        - registration of the Portal's subjects;
+        - organizing electronic interaction of the Portal's subjects through personal
+          accounts;
+        - 'generalization and systematization of registers and structured data, in particular:'
+        - creating a list;
+        - monitoring, summarizing and analyzing statistical data generated by the Portal's
+          subjects as a result of its use.
+        - Personal data is stored for no longer than is necessary in accordance with
+          the purpose of their collection, processing and use or until you terminate
+          your use of the Portal by deleting your account on the Portal.
+    '4':
+      title: Access to personal data
+      text:
+        - The authorized person of the Portal administrator is granted full access to
+          the personal data of the registered subjects of the Portal.
+    '5':
+      title: Transfer of personal data to third parties
+      text:
+        - The Portal Administrator (CC and RMP) does not transfer or disclose personal
+          data received from the registered entities of the Portal to third parties.
+        - The disclosure of personal data is possible in cases determined by the current
+          legislation of Ukraine, as well as in the case of involvement of third parties
+          providing technical support and/or services for the improvement of the Portal
+          on the terms of the contract and subject to non-disclosure of personal data.
+errors:
+  validation:
+    phone: A candidate with this phone already exists
+    email: A candidate with this mail already exists
+    unknown: Validation error
+  unknown: Unknown error

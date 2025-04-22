@@ -1,0 +1,125 @@
+.brigade {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  border-radius: var(--border-radius);
+  height: 700px;
+  background: url(/images/slider.png) no-repeat center top / cover;
+
+  &::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    content: '';
+  }
+
+  @media screen and (max-width: 450px) {
+    height: 100%;
+  }
+
+  .brigade_chevron {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 120px;
+
+    @media screen and (max-width: 850px) {
+      width: 75px;
+    }
+
+    @media screen and (max-width: 450px) {
+      display: none;
+    }
+  }
+
+  .brigade_content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 50px;
+    padding: 20px;
+    width: 100%;
+    max-width: 50%;
+    z-index: 10;
+    overflow: auto;
+    color: var(--color-text);
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+
+    @media screen and (max-width: 850px) {
+      max-width: 70%;
+    }
+
+    @media screen and (max-width: 450px) {
+      gap: 20px;
+      padding: 20px;
+      max-width: 100%;
+    }
+
+    .brigade_title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 26px;
+
+      @media screen and (max-width: 850px) {
+        font-size: 20px;
+      }
+
+      .brigade_chevron_mobile {
+        display: none;
+        height: 55px;
+
+        @media screen and (max-width: 450px) {
+          display: flex;
+        }
+      }
+    }
+
+    .brigade_text {
+      font-size: 18px;
+      letter-spacing: 2px;
+      text-align: justify;
+
+      @media screen and (max-width: 850px) {
+        font-size: 16px;
+      }
+    }
+
+    .battalions {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+
+      .battalion {
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        .battalion_chevron {
+          margin: 0 30px 0 20px;
+          width: 40px;
+
+          @media screen and (max-width: 850px) {
+            width: 30px;
+          }
+        }
+
+        .battalion_text {
+          text-align: left;
+          font-size: 18px;
+          flex: 1;
+
+          @media screen and (max-width: 850px) {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

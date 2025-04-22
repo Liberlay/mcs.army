@@ -1,0 +1,112 @@
+.select {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  &.opened .select_container {
+    .input {
+      border-radius: var(--border-radius) var(--border-radius) 0 0;
+      border-color: var(--color-primary);
+    }
+
+    .list_container .list {
+      border-color: var(--color-primary);
+    }
+  }
+
+  .label {
+    font-size: 14px;
+    color: var(--color-label);
+  }
+
+  .select_container {
+    position: relative;
+
+    .input {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 8px;
+      border-radius: var(--border-radius);
+      border: var(--border);
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      transition: 0.3s;
+      cursor: pointer;
+
+      .icon {
+        transition: 0.3s;
+      }
+
+      &:hover {
+        border-color: var(--color-primary);
+
+        .icon {
+          color: var(--color-primary);
+        }
+      }
+    }
+
+    .list_container {
+      position: absolute;
+      top: calc(100% - 1px);
+      width: 100%;
+      overflow: hidden;
+      pointer-events: none;
+
+      .list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        z-index: 5;
+        visibility: hidden;
+        pointer-events: all;
+        transform: translateY(-50px);
+        opacity: 0;
+        transition: 0.3s;
+        border-radius: var(--border-radius);
+        border: var(--border);
+        color: var(--color-text);
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+
+        &.opened {
+          visibility: visible;
+          border-radius: 0 0 var(--border-radius) var(--border-radius);
+          transform: translateY(0);
+          opacity: 1;
+        }
+
+        p {
+          padding: 7px;
+          border-bottom: var(--border);
+          transition: 0.3s;
+          cursor: pointer;
+
+          &:last-child {
+            border: none;
+          }
+
+          &:hover {
+            color: var(--color-primary);
+          }
+
+          &.selected {
+            color: var(--color-primary);
+          }
+        }
+      }
+    }
+  }
+
+  .error_container {
+    height: 20px;
+
+    .error_message {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: var(--color-error);
+    }
+  }
+}

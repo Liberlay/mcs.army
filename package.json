@@ -1,0 +1,38 @@
+{
+  "name": "mcs-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@gsap/react": "^2.1.0",
+    "@mui/icons-material": "^5.15.6",
+    "@mui/material": "^5.15.6",
+    "@react-input/mask": "^1.0.21",
+    "axios": "^1.6.8",
+    "clsx": "^2.1.0",
+    "flag-icons": "^7.2.0",
+    "gsap": "^3.12.5",
+    "next": "^14.1.4",
+    "next-intl": "^3.9.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
+    "react-toastify": "^10.0.5",
+    "sass": "^1.70.0",
+    "usehooks-ts": "^2.12.1"
+  },
+  "devDependencies": {
+    "yaml-loader": "^0.8.1"
+  }
+}

@@ -1,0 +1,230 @@
+.main {
+  overflow: hidden;
+
+  @media screen and (max-width: 1205px) {
+    .section_about,
+    .section_brigades {
+      padding: 150px 10px !important;
+    }
+  }
+
+  .section_top {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    div {
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      height: 100%;
+      background: url(/images/main.png) no-repeat center top / cover;
+
+      &::before {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        content: '';
+      }
+
+      .slogan {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        flex: 1;
+        margin: 0;
+        padding-left: 100px;
+        font-size: 34px;
+        font-family: 'Pacifico';
+        background: linear-gradient(to left, #e63535, #963333);
+        filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.5));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @media screen and (max-width: 1330px) {
+          padding-left: 50px;
+          font-size: 28px;
+        }
+
+        @media screen and (max-width: 800px) {
+          padding-left: 20px;
+        }
+
+        @media screen and (max-width: 330px) {
+          text-align: center;
+          margin: 0 auto;
+          padding: 0;
+          width: 100%;
+        }
+      }
+
+      .title {
+        flex: 1;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 100px;
+        font-size: 42px;
+        font-family: 'Rubik';
+        background: linear-gradient(135deg, var(--color-primary), #3099d6);
+        filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.5));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @media screen and (max-width: 1330px) {
+          font-size: 34px;
+        }
+
+        @media screen and (max-width: 670px) {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+  .section_about {
+    margin: 0 auto;
+    padding: 150px 0;
+    width: 100%;
+    max-width: 1200px;
+
+    .about {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      margin: 0 auto;
+      text-align: justify;
+      color: #fff;
+
+      @media screen and (max-width: 1250px) {
+        flex-direction: column;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        gap: 100px;
+        font-size: 24px;
+        line-height: 1.25;
+        letter-spacing: 2px;
+
+        @media screen and (max-width: 800px) {
+          font-size: 20px;
+        }
+
+        .questions {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+
+          .question {
+            @media screen and (max-width: 690px) {
+              text-align: center;
+            }
+
+            &:nth-child(2) {
+              text-align: right;
+
+              @media screen and (max-width: 690px) {
+                text-align: center;
+              }
+            }
+
+            &:last-child {
+              text-align: center;
+              margin-top: 10px;
+            }
+          }
+        }
+
+        .text_container {
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+
+          .text {
+            display: inline;
+          }
+        }
+      }
+
+      .socials {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        @media screen and (max-width: 1250px) {
+          flex-direction: row;
+        }
+
+        a {
+          display: flex;
+          align-items: center;
+
+          .icon {
+            font-size: 50px;
+            text-decoration: none;
+            color: #fff;
+            transition: 0.3s;
+            cursor: pointer;
+
+            &:hover {
+              color: var(--color-primary);
+            }
+
+            @media screen and (max-width: 800px) {
+              font-size: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section_brigades {
+    margin: 0 auto;
+    padding: 150px 0;
+    width: 100%;
+    max-width: 1200px;
+
+    .heading {
+      text-align: center;
+      margin: 0;
+      padding-bottom: 50px;
+      width: calc(100% - 10px);
+      font-size: 20px;
+      text-transform: uppercase;
+      color: var(--color-text);
+    }
+  }
+
+  .section_form {
+    padding: 150px 0;
+
+    .heading {
+      text-align: center;
+      margin: 0;
+      padding-bottom: 64px;
+      width: calc(100% - 10px);
+      font-size: 20px;
+      text-transform: uppercase;
+      color: var(--color-text);
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+      background: url(/images/slider.png) no-repeat center top / cover;
+
+      &::before {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(290deg, rgba(0, 0, 0, 0) 0, #000 100%);
+        content: '';
+      }
+    }
+  }
+}

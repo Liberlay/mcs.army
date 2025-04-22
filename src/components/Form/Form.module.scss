@@ -1,0 +1,46 @@
+.form {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  height: 905px;
+  border-radius: var(--border-radius);
+
+  @media screen and (max-width: 1205px) {
+    padding: 0 10px;
+  }
+
+  @media screen and (max-width: 800px) {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+    width: 100%;
+    max-width: 500px;
+    z-index: 10;
+
+    .button {
+      width: 150px;
+      height: 40px;
+      border-radius: 8px;
+      border: var(--border);
+      color: var(--color-text);
+      background-color: var(--color-bg);
+      font-weight: 600;
+      letter-spacing: 2px;
+      transition: 0.3s;
+      cursor: pointer;
+
+      &:hover {
+        color: #000;
+        background-color: #30c5d6;
+      }
+    }
+  }
+}
